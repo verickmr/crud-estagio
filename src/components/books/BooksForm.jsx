@@ -41,7 +41,7 @@ const BookForm = ({ onSubmit, authors }) => {
         <div><label htmlFor="name">Selecione o Autor:</label>
         <select
           className={errors?.selected && "input-error"}
-          name="selected"          defaultValue="0"
+          name="selected"         
           {...register("selected", { required: true },{ validate: (value) => value !== "0" })}
         >
           <option value="0" disabled>

@@ -8,7 +8,7 @@ background-color: #009fe3;
 color: #eee;
 display: flex;
 height: 100px;
-padding: 10px;
+padding: 10px 2rem; 
 align-items: center;
 gap: 20px;
 justify-content: space-between;
@@ -30,7 +30,7 @@ const logo = <img src="../../assets/cs_logo_header.png"alt="logo" />
 
 const Head = () => {
     return ( <Header>{logo}
-    <h1>Estagio Front End</h1>
+    <h1>Estágio Front End</h1>
     <div><a href="https://www.linkedin.com/in/victor-erick/"><FaLinkedin /></a>
 <a href="https://github.com/verickmr"><FaSquareGithub /></a></div>
     </Header> );

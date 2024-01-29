@@ -12,7 +12,7 @@ position: ${(props) => (props.customStyle ? "absolute" : "relative")};
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
     font-weight: 600;
 
-    padding: 3px 3px;
+    padding: 5px;
     cursor: pointer;
     color: ${({ customStyle }) => (customStyle ? "#ff0000" : "#009fe3")};
     border-color: ${({ customStyle }) => (customStyle ? "#ff0000" : "#009fe3")};
